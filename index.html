@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="Fair Clustering Tutorial" />
+        <meta name="author" content="John P. Dickerson, TBD ADD NAMES HERE" />
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+        <link rel="manifest" href="site.webmanifest" />
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+        
+        <title>Fair Clustering</title>
+        
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <!-- Fancy fonts for the headers -->
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet" />
+        
+        <!-- Bootstrap 4+ dropped icons for some reason, this reloads them -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Fair Clustering</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#tutorial">Tutorial</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#related">Related Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <h3 class="text-muted">Fair Clustering</h3>
+            
+            <div class="jumbotron">
+                <h1 class="display-4">Subtitle</h1>
+                <p class="lead">Something motivational about fair clustering</em></p>
+            </div>
+            
+            
+            <div class="row marketing" id="tutorial">
+                <h1>Tutorial</h1>
+                
+                <p>Clustering problems are fundamental in areas ranging from Unsupervised Learning and Operations Research, to Data Mining and Optimization. Even more importantly, due to the numerous practical applications of this family of problems, algorithms developed for them are employed on a daily basis in settings affecting the lives of millions of individuals. Because of this, a flurry of research has emerged on guaranteeing that the aforementioned clustering problems will explicitly take into account the issue of fairness, thus providing socially just solutions. This research endeavour has led to a vast collection of results, where multiple and often unrelated or conflicting definitions of fairness are considered.</p>
+                
+                <p>The goal of this tutorial is to introduce a wide audience interested in algorithmic fairness to the nascent research area of \emph{fair clustering}. Specifically, we wish to present a variety of fairness notions used in the context of clustering, argue about the necessity of each of those through corresponding applications, discuss the relationships between different notions, sketch the algorithmic ideas that were developed in order to address the corresponding computational problems, and finally share our thoughts about the future of research in algorithmic fairness. By the end of the tutorial, the audience will have achieved a significant level of familiarity with multiple definitions of fairness in the unsupervised learning context, and we hope that researchers will use these ideas in contexts both within and adjacent to the clustering context, in both industrial and academic applications.</p>
+                
+            </div>
+            
+            <hr class="featurette-divider">
+            
+            <div class="row marketing" id="related">
+                <h1>Recommended Reading</h1>
+                <table class="table table-striped">
+                    <caption>If you see anything missing or have a suggestion, feel free to reach out!</caption>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Topic</th>
+                            <th>Link</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th colspan="6">
+                                Overview Papers
+                            </th>
+                        </tr>
+                        <tr>
+                            <th scope="row">2021</th>
+                            <td>Fake paper</td>
+                            <td>Cool authors</td>
+                            <td>Group fairness; approximation algorithms</td>
+                            <td>arXiv: <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></td>
+                            <td>We think this paper is lovely for the following reasons</td>
+                        </tr>
+                        <tr>
+                            <th colspan="6">
+                                Group Fairness Papers
+                            </th>
+                        </tr>
+                        <tr>
+                            <th scope="row">2021</th>
+                            <td>Fake paper</td>
+                            <td>Cool authors</td>
+                            <td>Group fairness; approximation algorithms</td>
+                            <td>arXiv: <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></td>
+                            <td>We think this paper is lovely for the following reasons</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+            </div>
+            
+            <hr class="featurette-divider">
+            
+            <div class="row marketing" id="about">
+                <h1>About Us</h1>
+                
+                <p>We should put some links to who we are, websites, invite people to join, etc.  Also maybe pictures, school/firm logos, anything else?  Words words words words words words words words words words. </p>
+            </div>
+            
+            <hr class="featurette-divider">
+            
+            <footer class="footer">
+                <p>&copy; 2022 <a href="http://jpdickerson.com">Dickerson</a> &amp; ADD OTHER NAMES HERE</p>
+            </footer>
+            
+        </div> <!-- /container -->
+        
+    </body>
+</html>
